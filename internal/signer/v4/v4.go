@@ -183,7 +183,7 @@ func (v4 *signer) build() {
 			"SignedHeaders=" + v4.signedHeaders,
 			"Signature=" + v4.signature,
 		}
-		v4.Request.Header.Set("Authorization", strings.Join(parts, ", "))
+		v4.Request.Header.Set("Authorization", strings.Join(parts, ","))
 	}
 }
 
