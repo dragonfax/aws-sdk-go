@@ -4,6 +4,7 @@ import (
 	"encoding/xml"
 	"io"
 	"sort"
+	"strings"
 )
 
 // A XMLNode contains the values to be encoded or decoded.
@@ -79,7 +80,7 @@ func StructToXML(e *xml.Encoder, node *XMLNode, sorted bool) error {
 	e.EncodeToken(xml.StartElement{Name: node.Name, Attr: node.Attr})
 
 	if node.Text != "" {
-		e.EncodeToken(xml.CharData([]byte(node.Text)))
+		e.EncodeToken(xml.CharData([]byte(strings.Replace(node.Text, `"`, "", -1))))
 	} else if sorted {
 		sortedNames := []string{}
 		for k := range node.Children {
