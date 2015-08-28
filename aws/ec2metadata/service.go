@@ -4,12 +4,12 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/aws/service"
-	"github.com/aws/aws-sdk-go/aws/service/serviceinfo"
+	"github.com/dragonfax/aws-sdk-go/aws"
+	"github.com/dragonfax/aws-sdk-go/aws/awserr"
+	"github.com/dragonfax/aws-sdk-go/aws/credentials"
+	"github.com/dragonfax/aws-sdk-go/aws/request"
+	"github.com/dragonfax/aws-sdk-go/aws/service"
+	"github.com/dragonfax/aws-sdk-go/aws/service/serviceinfo"
 )
 
 // DefaultRetries states the default number of times the service client will

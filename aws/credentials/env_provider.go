@@ -3,7 +3,7 @@ package credentials
 import (
 	"os"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
+	"github.com/dragonfax/aws-sdk-go/aws/awserr"
 )
 
 var (

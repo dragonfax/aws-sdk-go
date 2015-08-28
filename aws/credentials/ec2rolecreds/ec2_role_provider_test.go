@@ -9,10 +9,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/credentials/ec2rolecreds"
-	"github.com/aws/aws-sdk-go/aws/ec2metadata"
+	"github.com/dragonfax/aws-sdk-go/aws"
+	"github.com/dragonfax/aws-sdk-go/aws/awserr"
+	"github.com/dragonfax/aws-sdk-go/aws/credentials/ec2rolecreds"
+	"github.com/dragonfax/aws-sdk-go/aws/ec2metadata"
 )
 
 const credsRespTmpl = `{

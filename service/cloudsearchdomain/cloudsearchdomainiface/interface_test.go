@@ -5,8 +5,8 @@ package cloudsearchdomainiface_test
 import (
 	"testing"
 
-	"github.com/aws/aws-sdk-go/service/cloudsearchdomain"
-	"github.com/aws/aws-sdk-go/service/cloudsearchdomain/cloudsearchdomainiface"
+	"github.com/dragonfax/aws-sdk-go/service/cloudsearchdomain"
+	"github.com/dragonfax/aws-sdk-go/service/cloudsearchdomain/cloudsearchdomainiface"
 	"github.com/stretchr/testify/assert"
 )
 

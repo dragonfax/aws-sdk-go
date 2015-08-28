@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/dynamodb"
-	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbattribute"
+	"github.com/dragonfax/aws-sdk-go/aws"
+	"github.com/dragonfax/aws-sdk-go/aws/credentials"
+	"github.com/dragonfax/aws-sdk-go/aws/request"
+	"github.com/dragonfax/aws-sdk-go/service/dynamodb"
+	"github.com/dragonfax/aws-sdk-go/service/dynamodb/dynamodbattribute"
 )
 
 type noopReadCloser struct{}

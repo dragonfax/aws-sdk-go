@@ -7,11 +7,11 @@ import (
 
 	"bytes"
 	"encoding/xml"
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/aws/service"
-	"github.com/aws/aws-sdk-go/internal/protocol/restxml"
-	"github.com/aws/aws-sdk-go/service/cloudfront"
+	"github.com/dragonfax/aws-sdk-go/aws"
+	"github.com/dragonfax/aws-sdk-go/aws/request"
+	"github.com/dragonfax/aws-sdk-go/aws/service"
+	"github.com/dragonfax/aws-sdk-go/internal/protocol/restxml"
+	"github.com/dragonfax/aws-sdk-go/service/cloudfront"
 )
 
 func BenchmarkRESTXMLBuild_Complex_cloudfrontCreateDistribution(b *testing.B) {

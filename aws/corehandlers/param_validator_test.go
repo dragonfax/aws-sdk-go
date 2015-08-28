@@ -5,12 +5,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/corehandlers"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/aws/service"
-	"github.com/aws/aws-sdk-go/aws/service/serviceinfo"
+	"github.com/dragonfax/aws-sdk-go/aws"
+	"github.com/dragonfax/aws-sdk-go/aws/awserr"
+	"github.com/dragonfax/aws-sdk-go/aws/corehandlers"
+	"github.com/dragonfax/aws-sdk-go/aws/request"
+	"github.com/dragonfax/aws-sdk-go/aws/service"
+	"github.com/dragonfax/aws-sdk-go/aws/service/serviceinfo"
 )
 
 var testSvc = func() *service.Service {

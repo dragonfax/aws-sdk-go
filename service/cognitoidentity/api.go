@@ -6,8 +6,8 @@ package cognitoidentity
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/dragonfax/aws-sdk-go/aws/awsutil"
+	"github.com/dragonfax/aws-sdk-go/aws/request"
 )
 
 const opCreateIdentityPool = "CreateIdentityPool"

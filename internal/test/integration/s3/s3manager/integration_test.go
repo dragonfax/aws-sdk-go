@@ -12,11 +12,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/internal/test/integration"
-	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/aws/aws-sdk-go/service/s3/s3manager"
+	"github.com/dragonfax/aws-sdk-go/aws"
+	"github.com/dragonfax/aws-sdk-go/aws/request"
+	"github.com/dragonfax/aws-sdk-go/internal/test/integration"
+	"github.com/dragonfax/aws-sdk-go/service/s3"
+	"github.com/dragonfax/aws-sdk-go/service/s3/s3manager"
 	"github.com/stretchr/testify/assert"
 )
 

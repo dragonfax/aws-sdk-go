@@ -9,7 +9,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/aws/aws-sdk-go/internal/util"
+	"github.com/dragonfax/aws-sdk-go/internal/util"
 )
 
 // A ShapeRef defines the usage of a shape within the API.

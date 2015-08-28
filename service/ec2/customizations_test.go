@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/internal/test/unit"
-	"github.com/aws/aws-sdk-go/service/ec2"
+	"github.com/dragonfax/aws-sdk-go/aws"
+	"github.com/dragonfax/aws-sdk-go/internal/test/unit"
+	"github.com/dragonfax/aws-sdk-go/service/ec2"
 	"github.com/stretchr/testify/assert"
 )
 

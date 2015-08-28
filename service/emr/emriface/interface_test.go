@@ -5,8 +5,8 @@ package emriface_test
 import (
 	"testing"
 
-	"github.com/aws/aws-sdk-go/service/emr"
-	"github.com/aws/aws-sdk-go/service/emr/emriface"
+	"github.com/dragonfax/aws-sdk-go/service/emr"
+	"github.com/dragonfax/aws-sdk-go/service/emr/emriface"
 	"github.com/stretchr/testify/assert"
 )
 

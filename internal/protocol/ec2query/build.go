@@ -6,9 +6,9 @@ package ec2query
 import (
 	"net/url"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/internal/protocol/query/queryutil"
+	"github.com/dragonfax/aws-sdk-go/aws/awserr"
+	"github.com/dragonfax/aws-sdk-go/aws/request"
+	"github.com/dragonfax/aws-sdk-go/internal/protocol/query/queryutil"
 )
 
 // Build builds a request for the EC2 protocol.

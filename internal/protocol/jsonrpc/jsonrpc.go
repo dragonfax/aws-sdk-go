@@ -10,9 +10,9 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/internal/protocol/json/jsonutil"
+	"github.com/dragonfax/aws-sdk-go/aws/awserr"
+	"github.com/dragonfax/aws-sdk-go/aws/request"
+	"github.com/dragonfax/aws-sdk-go/internal/protocol/json/jsonutil"
 )
 
 var emptyJSON = []byte("{}")

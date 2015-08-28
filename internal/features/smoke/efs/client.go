@@ -2,9 +2,9 @@
 package efs
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/internal/features/shared"
-	"github.com/aws/aws-sdk-go/service/efs"
+	"github.com/dragonfax/aws-sdk-go/aws"
+	"github.com/dragonfax/aws-sdk-go/internal/features/shared"
+	"github.com/dragonfax/aws-sdk-go/service/efs"
 	. "github.com/lsegal/gucumber"
 )
 

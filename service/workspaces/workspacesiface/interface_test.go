@@ -5,8 +5,8 @@ package workspacesiface_test
 import (
 	"testing"
 
-	"github.com/aws/aws-sdk-go/service/workspaces"
-	"github.com/aws/aws-sdk-go/service/workspaces/workspacesiface"
+	"github.com/dragonfax/aws-sdk-go/service/workspaces"
+	"github.com/dragonfax/aws-sdk-go/service/workspaces/workspacesiface"
 	"github.com/stretchr/testify/assert"
 )
 

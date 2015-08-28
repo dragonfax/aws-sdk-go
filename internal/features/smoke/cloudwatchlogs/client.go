@@ -2,8 +2,8 @@
 package cloudwatchlogs
 
 import (
-	"github.com/aws/aws-sdk-go/internal/features/shared"
-	"github.com/aws/aws-sdk-go/service/cloudwatchlogs"
+	"github.com/dragonfax/aws-sdk-go/internal/features/shared"
+	"github.com/dragonfax/aws-sdk-go/service/cloudwatchlogs"
 	. "github.com/lsegal/gucumber"
 )
 

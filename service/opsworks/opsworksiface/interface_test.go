@@ -5,8 +5,8 @@ package opsworksiface_test
 import (
 	"testing"
 
-	"github.com/aws/aws-sdk-go/service/opsworks"
-	"github.com/aws/aws-sdk-go/service/opsworks/opsworksiface"
+	"github.com/dragonfax/aws-sdk-go/service/opsworks"
+	"github.com/dragonfax/aws-sdk-go/service/opsworks/opsworksiface"
 	"github.com/stretchr/testify/assert"
 )
 

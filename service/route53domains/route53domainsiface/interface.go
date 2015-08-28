@@ -4,8 +4,8 @@
 package route53domainsiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/route53domains"
+	"github.com/dragonfax/aws-sdk-go/aws/request"
+	"github.com/dragonfax/aws-sdk-go/service/route53domains"
 )
 
 // Route53DomainsAPI is the interface type for route53domains.Route53Domains.

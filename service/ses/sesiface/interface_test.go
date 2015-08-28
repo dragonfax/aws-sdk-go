@@ -5,8 +5,8 @@ package sesiface_test
 import (
 	"testing"
 
-	"github.com/aws/aws-sdk-go/service/ses"
-	"github.com/aws/aws-sdk-go/service/ses/sesiface"
+	"github.com/dragonfax/aws-sdk-go/service/ses"
+	"github.com/dragonfax/aws-sdk-go/service/ses/sesiface"
 	"github.com/stretchr/testify/assert"
 )
 

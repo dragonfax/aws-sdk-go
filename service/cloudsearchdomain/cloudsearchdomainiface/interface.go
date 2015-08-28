@@ -4,8 +4,8 @@
 package cloudsearchdomainiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/cloudsearchdomain"
+	"github.com/dragonfax/aws-sdk-go/aws/request"
+	"github.com/dragonfax/aws-sdk-go/service/cloudsearchdomain"
 )
 
 // CloudSearchDomainAPI is the interface type for cloudsearchdomain.CloudSearchDomain.

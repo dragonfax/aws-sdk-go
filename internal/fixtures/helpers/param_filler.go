@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/aws/aws-sdk-go/internal/model/api"
-	"github.com/aws/aws-sdk-go/internal/util"
-	"github.com/aws/aws-sdk-go/internal/util/utilsort"
+	"github.com/dragonfax/aws-sdk-go/internal/model/api"
+	"github.com/dragonfax/aws-sdk-go/internal/util"
+	"github.com/dragonfax/aws-sdk-go/internal/util/utilsort"
 )
 
 // A paramFiller provides string formatting for a shape and its types.

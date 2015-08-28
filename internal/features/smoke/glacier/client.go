@@ -2,8 +2,8 @@
 package glacier
 
 import (
-	"github.com/aws/aws-sdk-go/internal/features/shared"
-	"github.com/aws/aws-sdk-go/service/glacier"
+	"github.com/dragonfax/aws-sdk-go/internal/features/shared"
+	"github.com/dragonfax/aws-sdk-go/service/glacier"
 	. "github.com/lsegal/gucumber"
 )
 

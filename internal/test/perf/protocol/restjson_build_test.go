@@ -7,12 +7,12 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/aws/service"
-	"github.com/aws/aws-sdk-go/internal/protocol/rest"
-	"github.com/aws/aws-sdk-go/internal/protocol/restjson"
-	"github.com/aws/aws-sdk-go/service/elastictranscoder"
+	"github.com/dragonfax/aws-sdk-go/aws"
+	"github.com/dragonfax/aws-sdk-go/aws/request"
+	"github.com/dragonfax/aws-sdk-go/aws/service"
+	"github.com/dragonfax/aws-sdk-go/internal/protocol/rest"
+	"github.com/dragonfax/aws-sdk-go/internal/protocol/restjson"
+	"github.com/dragonfax/aws-sdk-go/service/elastictranscoder"
 )
 
 func BenchmarkRESTJSONBuild_Complex_elastictranscoderCreateJobInput(b *testing.B) {
